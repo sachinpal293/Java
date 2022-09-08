@@ -1,0 +1,26 @@
+ to use third pary we firstly install npm
+* To install npm:=> we write ...(npm init)...in terminal
+
+
+* To downloade nodemon:=> we write...(npm install nodemon)...in terminal
+    here nodemon is third party package  
+
+*To downloade nodemodoles:=>  we write...(npm install nodemon --save-dev)....in terminal
+
+* To downloade/install express:=> we write..(npm install --save express)... in terminal
+*npm start
+	To use of npm start we firstly add/downloade/install nodemone and install npm and add 
+("start": "nodemon current file name")in scripts in {}package.json module/file
+
+*To  downloade/inserting ejs:=> we write...(npm i ejs)...in terminal
+(ejs is used for give dynamicaly variable name)
+
+	#To include/access ejs module in main file we use:=>
+		app(var_name).set('view Engine','ejs');
+
+	#To access ejs file:=>
+		app(var_name).set('views','folder_name')
+
+	# <%=   %> (for using variable)
+	# <%-   %> (for using including other file)
+	# <%    %> (for logic building)
